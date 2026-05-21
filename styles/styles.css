@@ -3,6 +3,12 @@
     --box-shadow-gray: 0 0 30px gray;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -31,7 +37,7 @@ p {
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 aside {
@@ -43,11 +49,19 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+
+}
+
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 125px;
 }
 
 main img {
@@ -55,11 +69,29 @@ main img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: var(--box-shadow-gray)
+    box-shadow: var(--box-shadow-gray);
+    float: right;
+    margin: 0 0 1rem 1rem;
+
+}
+
+main ul {
+    max-width: 400px;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* class selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+
 }
