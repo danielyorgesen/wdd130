@@ -161,3 +161,102 @@ h2 {
 .second {
     order: 2;
 }
+
+.serve {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 2px;
+
+}
+
+.serve img {
+    width: 150px;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid black
+}
+
+.clear {
+    color: black;
+    background-color: white;
+    opacity: 100;
+
+}
+
+.clear p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.map-form {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+
+}
+
+.map-form form {
+    display: grid;
+    padding-left: 2rem;
+    width: 50%;
+    border: none;
+    text-align: left;
+    font-size: small;
+}
+
+label {
+    text-align: left;
+
+}
+
+fieldset {
+    border: none;
+}
+
+.form-item {
+    display: grid;
+    padding: 2px;
+    row-gap: 10px;
+    column-gap: 5px;
+
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+.column2 {
+    grid-template-columns: 15px 2fr;
+}
+
+button {
+    width: 100%;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.column3 {
+    grid-template-columns: 1fr 10px 3fr;
+
+}
+
+.mes-purpose {
+    grid-row-start: 2;
+}
+
+.mes-purpose2 {
+    grid-column-start: 2;
+}
+
+.mes-purpose3 {
+    align-self: center;
+}

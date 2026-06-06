@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="This is a Whitewater rafting website made by Daniel Yorgesen for his WDD130 class. It is the contact us page and has a form">
+    <meta name="author" content="Daniel Yorgesen">
+    <title>Contact us Sink or Swim Safaris</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Whitewater Rafting">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="clear">
+            <h2 class="clear">Sink or Swim Safaris</h2>
+            <p>123 Main River Street</p>
+            <p>Kolob, Utah</p>
+            <P>+1 999 999 9999</P>
+            <p>info@sinkorswimsafaris.com</p>
+        </div>
+        <div class="map-form">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d285838.8149005277!2d-110.56218818725627!3d37.67029763172071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1780731897276!5m2!1sen!2sus"
+              width="400" height="300" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form>
+                <fieldset>
+
+                    <div class="form-item column1">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                    </div>
+
+                    <div class="form-item column1">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Placeholder"
+                          required>
+                    </div>
+
+                    <div class="form-item column3">
+                        <label class="mes-purpose" for="messagepurpose"> Message Purpose</label>
+                        <input class="mes-purpose2" type="radio" name="messagepurpose">
+                        <label for="messagepurpose"> General Inquiry</label>
+
+                        <input type="radio" name="reservationquestion">
+                        <label class="mes-purpose3" for="reservationquestion"> Reservation
+                            Question</label>
+
+                        <input class="mes-purpose2" type="radio" name="websitesuggestion">
+                        <label for="websitesuggestion"> Website Suggestion</label>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4"
+                          placeholder="Type here"></textarea>
+
+                    </div>
+                    <div class="form-item column2">
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                        <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                    </div>
+                    <button type="submit">Get in Touch!</button>
+                </fieldset>
+
+            </form>
+        </div>
+        <div class="box">
+            <h2 class="clear">We Are Here to Serve You</h2>
+            <div class="serve">
+                <figure>
+                    <img src="images/employee-1.jpg" alt="Employee" class="first">
+                    <figcaption class="second">Employee Profile</figcaption>
+
+                </figure>
+                <figure>
+
+                    <img src="images/employee-2.jpg" alt="Employee" class="first">
+                    <figcaption class="second">Employee Profile</figcaption>
+
+                </figure>
+                <figure>
+
+
+                    <img src="images/employee-3.jpg" alt="Employee" class="first">
+                    <figcaption class="second">Employee Profile</figcaption>
+
+                </figure>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2026 | Sink or Swim Safaris | Daniel Yorgesen</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook_725289.jpg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-logo_1384889.jpg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_2111421.jpg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
