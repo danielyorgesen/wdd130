@@ -186,6 +186,12 @@ h2 {
 
 }
 
+.clear h1 {
+    position: inherit;
+    font-size: larger;
+    padding: 5px;
+}
+
 .clear p {
     text-align: center;
     padding: 0;
