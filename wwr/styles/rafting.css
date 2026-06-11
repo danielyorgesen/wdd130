@@ -202,14 +202,21 @@ h2 {
     display: flex;
     padding: 10px;
     margin: 10px;
-    width: 100%;
 
+}
+
+.map-form img {
+    width: 400px;
+}
+
+.map-form a {
+    font-size: xx-large;
 }
 
 .map-form form {
     display: grid;
     padding-left: 2rem;
-    width: 50%;
+    width: 100%;
     border: none;
     text-align: left;
     font-size: small;
@@ -265,4 +272,17 @@ button:hover {
 
 .mes-purpose3 {
     align-self: center;
+}
+
+.grid2c {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid2c img {
+    width: 400px;
+}
+
+.grid2c p {
+    font-size: larger;
 }
